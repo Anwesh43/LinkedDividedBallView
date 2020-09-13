@@ -20,7 +20,7 @@ val colors : Array<Int> = arrayOf(
         "#2196F3"
 ).map({Color.parseColor(it)}).toTypedArray()
 val parts : Int = 3
-val scGap : Float = 0.02f / parts
+val scGap : Float = 0.04f / parts
 val sizeFactor : Float = 14.6f
 val delay : Long = 20
 val backColor : Int = Color.parseColor("#BDBDBD")
