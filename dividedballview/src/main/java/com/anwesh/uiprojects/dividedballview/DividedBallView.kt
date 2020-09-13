@@ -208,4 +208,13 @@ class DividedBallView(ctx : Context) : View(ctx) {
             }
         }
     }
+
+    companion object {
+
+        fun create(activity : Activity) : DividedBallView {
+            val view : DividedBallView = DividedBallView(activity)
+            activity.setContentView(view)
+            return view
+        }
+    }
 }
